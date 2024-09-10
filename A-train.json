@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " f ",
+      " b ",
+      "   "
+    ],
+    "key": {
+      "b": {
+        "item": "minecraft:rabbit_spawn_egg"
+      },
+      "f": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "result": {
+      "id": "minecraft:chain_command_block",
+      "components": {
+        "minecraft:custom_model_data": 808001,
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "id": "A-Train",
+              "type": "minecraft:generic.attack_speed",
+              "amount": 0.5,
+              "operation": "add_value"
+            },
+            {
+              "id": "A-Train",
+              "type": "minecraft:player.block_break_speed",
+              "amount": 0.25,
+              "operation": "add_multiplied_total"
+            },
+            {
+              "id": "A-Train",
+              "type": "minecraft:generic.max_health",
+              "amount": -10,
+              "operation": "add_value"
+            },
+            {
+              "id": "A-Train",
+              "type": "minecraft:generic.movement_speed",
+              "amount": 3,
+              "operation": "add_multiplied_total",
+              "slot": "any"
+            }
+          ],
+          "show_in_tooltip": true
+        },
+        "minecraft:custom_name": "Charm of Limitless Speed"
+      }
+    }
+  }
+  
